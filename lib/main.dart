@@ -21,8 +21,7 @@ void main() async {
           appId: '1:335241640055:web:16aec4fbf1ef63e260ae72',
           messagingSenderId: '335241640055',
           projectId: 'instagram-clone-c396d',
-          storageBucket: 'instagram-clone-c396d.appspot.com'
-      ),
+          storageBucket: 'instagram-clone-c396d.appspot.com'),
     );
   } else {
     await Firebase.initializeApp();
